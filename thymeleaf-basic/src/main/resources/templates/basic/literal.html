@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>literal</h1>
+<ul>
+    <li>'string' + ' data' = <span th:text="'string' + ' data'"></span></li>
+    <li>'string data' = <span th:text="'string data'"></span></li>
+    <li>'string' +  ${data} = <span th:text="'string' + ${data}"></span></li>
+    <li>리터럴 대체 |string ${data}| = <span th:text="|string ${data}|"></span></li>
+</ul>
+
+</body>
+</html>
